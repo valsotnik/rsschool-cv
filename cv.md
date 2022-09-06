@@ -41,3 +41,15 @@
 							.map(x => cubes(x) % 2 ? rotate(x) : reverse(x))
 						 	.join('')}
 ```
+
+### Education:
+
+- Rolling Scopes School «JavaScript/Front-end. Stage 0» (November 2021 - March 2022)
+- Rolling Scopes School «JavaScript/Front-end. Stage 1-2» (March 2022 - June 2022)
+- Angular Internship on project (June 2022 - ...)
+  > **Keep learning**
+
+### Languages:
+
+- Russian - Native
+- English - B1
