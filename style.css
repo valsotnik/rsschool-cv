@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Poppins:wght@300&display=swap");
+
+:root {
+	--h-color: #00939e;
+}
+
+* {
+	font-family: "Outfit", sans-serif;
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: #bef2ff;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.cv-wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.container {
+	display: flex;
+}
+
+.left-col {
+	width: 30%;
+}
+
+.right-col {
+	width: 70%;
+}
+
+/* Left Column */
+
+header,
+main {
+	padding: 30px;
+	text-align: center;
+}
+
+main {
+	margin-top: -60px;
+}
+
+figure img {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 20%;
+}
+
+header h1 {
+	font-size: 2.1rem;
+	font-weight: bold;
+	line-height: 1.1;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	/* text-shadow: 1px 1px 7px var(--h-color); */
+}
+
+main h2 {
+	width: auto;
+	margin: 20px auto;
+	padding-left: 10px;
+	text-align: left;
+	color: #ffffff;
+	background-color: var(--h-color);
+}
+
+main li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+main img {
+	margin-right: 10px;
+}
+
+/* Right Column */
+
+.right-col {
+	padding: 5px 30px 30px;
+	text-align: left;
+}
+
+.right-col section {
+	margin-bottom: 20px;
+}
+
+.right-col h3 {
+	width: auto;
+	margin: 20px auto 20px;
+	padding-left: 5px;
+	text-align: left;
+	color: #ffffff;
+	border-bottom: 5px solid var(--h-color);
+	color: var(--h-color);
+}
+
+.cv-education li {
+	margin-left: 30px;
+}
+
+/* Footer*/
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	font-size: 0.9rem;
+	color: #ffffff;
+	background: var(--h-color);
+}
+
+footer a {
+	color: white;
+}
+
+.github {
+	display: flex;
+	align-items: center;
+}
+
+.github img {
+	margin-right: 10px;
+}
+
+.cv-code-example img {
+	width: 90%;
+}
+
+.projects-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.projects-title {
+	text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+	background-color: var(--h-color);
+}
+
+.navigation {
+	background-color: var(--h-color);
+
+}
+
+.menu {
+	padding: 10px;
+}
+
+.menu-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-item {
+	color: #fff;
+	cursor: pointer;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.apps li,
+.sites li {
+	list-style: none;
+}
+
+section {
+	transition: all 0.2s ease;
+}
+
+.project:hover {
+	font-weight: bold;
+}
