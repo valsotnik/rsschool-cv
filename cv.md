@@ -2,54 +2,47 @@
 
 ### Contact information:
 
-- **Phone**: +48 731868371
+- **Phone**: +375 44 7877011
 - **E-mail**: *cmvaltime@gmail.com*
 - **Telegram**: _@cm_val92_
 - **GitHub**: [valsotnik](https://github.com/valsotnik)
+- **Discord**: _@valsotnik_
 
 ### About Myself:
 
-    I graduated from university as an mechanical engineer.
-    Now I decide to change direction, the IT sphere has always been interesting to me and the time has come.
-    I have good communication skills, I am stress-resistant,
-    I work well in a team and am determined to absorb new knowledge.
-    I have experience in the development of applications on JavaScript
-    and Angular  banking application development in a team on a project.
+I'm 29 years old.
+I graduated from the Belarusian-Russian University in Mogilev, Republic Of Belarus, branch - mechanical engineering.
+After that I worked on several diverse jobs, at the moment I am an expert of the Belarusian Chamber of Commerce and Industry.
+Now I want to change direction, the IT sphere has always been interesting to me and the time has come.
+I have good communication skills, I am stress-resistant, I work well in a team and am determined to absorb new knowledge.
+I will make every effort to finish these courses with dignity and find a job in this direction.
 
 ### Skills and Proficiency:
 
-- Angular
-- JavaScript
-- TypeScript
-- Webpack
-- HTML
-- CSS/SCSS
-- Git
-- GitLab/GitHub
+- HTML, CSS
+- JavaScript Basics
+- Git, GitHub
 - VS Code
 - Figma
 
 ### Code example:
 
 ```
-	function revrot(str, sz) {
-		if (sz < 1 || sz > str.length) return '';
-		let rotate  = x => x.slice(1) + x.slice(0, 1);
-		let reverse = x => x.split('').reverse().join('');
-		let cubes = x => x.split('').reduce((a, b) => a + Math.pow(b,3), 0);
-		return str.match(new RegExp('.{' + sz + '}', 'g'))
-							.map(x => cubes(x) % 2 ? rotate(x) : reverse(x))
-						 	.join('')}
+String.prototype.toJadenCase = function () {
+  return this.split(' ').map(a => a[0].toUpperCase() + a.slice(1)).join(' ');
+};
 ```
 
 ### Education:
 
-- Rolling Scopes School «JavaScript/Front-end. Stage 0» (November 2021 - March 2022)
-- Rolling Scopes School «JavaScript/Front-end. Stage 1-2» (March 2022 - June 2022)
-- Angular Internship on project (June 2022 - ...)
+- [CS50 YouTube lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+- HTML/CSS Tutorials
+- JavaScript Basics on [learn.javascript.ru](https://learn.javascript.ru/)
+  (in progress)
+- RS School Course «JavaScript/Front-end. Stage 0» (in progress)
   > **Keep learning**
 
 ### Languages:
 
 - Russian - Native
-- English - B1
+- English - A2
